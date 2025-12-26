@@ -19,7 +19,7 @@ Tech Stack
 - Scripts:JavaScript for interactivity
 - Backend:PHP
 
-Result
+Project Previews
 
 <img width="1906" height="1025" alt="Screenshot 2025-12-26 170306" src="https://github.com/user-attachments/assets/ebe38089-0351-4212-a12a-2d3c8ba0923e" />
 <img width="1912" height="1004" alt="Screenshot 2025-12-26 170332" src="https://github.com/user-attachments/assets/b173fa37-ac6b-40c9-acdd-076823dbd112" />
