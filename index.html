@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .page-wrapper {
+      flex: 1;
+      padding: 20px;
+    }
+
+    nav a {
+      margin: 10px;
+      text-decoration: none;
+      color: #6f42c1;
+      font-weight: bold;
+    }
+
+    header {
+      background-color: #6f42c1;
+      color: white;
+      padding: 40px;
+    }
+
+    #welcome {
+      opacity: 0;
+      transition: opacity 2s;
+      font-size: 1.2rem;
+    }
+
+    section {
+      margin-top: 30px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 20px auto;
+      display: inline-block;
+      text-align: left;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+      font-weight: 500;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      font-size: 0.8rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="page-wrapper">
+    <header>
+      <h1>Mamatha's Portfolio</h1>
+      <p id="welcome">Welcome to my site!</p>
+    </header>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <section>
+      <h2 style="color:black;">Welcome to My Portfolio</h2>
+      <p style="color: black;">
+        I'm Mamatha, a passionate web developer and data analyst based in Bengaluru.<br>I specialize in creating elegant, responsive websites and interactive dashboards that turn data into stories.<br>
+      </p>
+      <p style="color: black;">
+        This portfolio showcases my technical skills, creative projects, and commitment to clarity and compact design.<br> Whether you're here to explore my work or collaborate on something new, I'm excited to connect!
+      </p>
+     </section>
+  </div>
+
+  <footer>
+    <h3>© 2025 Mamatha | All rights reserved</h3>
+    <h3 id="datetime"></h3ss>
+  </footer>
+</body>
+</html>
